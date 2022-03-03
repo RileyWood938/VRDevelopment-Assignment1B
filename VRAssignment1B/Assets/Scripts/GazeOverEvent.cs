@@ -30,6 +30,8 @@ public class GazeOverEvent : MonoBehaviour
     /// </summary>
     private bool isHovering = false;
 
+
+
     void Update()
     {
         var cameraForward  = Camera.main.transform.forward;
