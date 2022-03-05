@@ -186,7 +186,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b50e447b1e0fd6b4c9e8f3e9265f0c72,
         type: 3}
       propertyPath: m_Name
-      value: capsule 1
+      value: Space Station
       objectReference: {fileID: 0}
     - target: {fileID: 7071182760956848314, guid: b50e447b1e0fd6b4c9e8f3e9265f0c72,
         type: 3}
@@ -365,7 +365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248922425}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.5, y: 3.2, z: -20.6}
+  m_LocalPosition: {x: 26.5, y: 3.2, z: -19.12}
   m_LocalScale: {x: 6, y: 6, z: 6}
   m_Children: []
   m_Father: {fileID: 1948407310}
@@ -427,6 +427,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &248922431
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -656,6 +669,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &357799386
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -747,7 +773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 415742817}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.92, y: 0, z: 2.43}
+  m_LocalPosition: {x: 26.92, y: 0, z: 3.85}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 1035837644}
@@ -810,6 +836,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &415742823
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -1916,7 +1955,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985219424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.07, y: -2, z: 15.16}
+  m_LocalPosition: {x: 12.74, y: -2, z: 15.16}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1948407310}
@@ -1978,6 +2017,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &985219430
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2047,7 +2099,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1035837644}
-  - component: {fileID: 1035837648}
   - component: {fileID: 1035837647}
   - component: {fileID: 1035837646}
   - component: {fileID: 1035837645}
@@ -2133,18 +2184,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1035837648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035837643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8233d90336aea43098adf6dbabd606a2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1036043198
 GameObject:
   m_ObjectHideFlags: 0
@@ -2364,9 +2403,9 @@ MonoBehaviour:
   m_fontSize: 25
   m_fontSizeBase: 25
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 25
+  m_fontSizeMax: 144
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -3050,7 +3089,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1664738352}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.56, y: 0.1, z: 25}
+  m_LocalPosition: {x: -0.97, y: 0.1, z: 25}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 1948407310}
@@ -3112,6 +3151,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &1664738358
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3470,12 +3522,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
+  m_fontSize: 27.35
   m_fontSizeBase: 20
   m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 20
+  m_fontSizeMax: 144
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
@@ -3627,7 +3679,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778758481}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.47, y: 1.19, z: 1.9}
+  m_LocalPosition: {x: -4.14, y: 1.19, z: 3.12}
   m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children: []
   m_Father: {fileID: 1948407310}
@@ -3689,6 +3741,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 10
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2063196936}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2063196936}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &1778758487
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4224,6 +4311,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1882449198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4280,7 +4380,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1913737015}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.15, y: 0, z: -16.99}
+  m_LocalPosition: {x: 4.25, y: 0, z: -16.99}
   m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 1948407310}
@@ -4342,6 +4442,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c1500a6e5daf46e6ac66e43840bc17e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maximumAngleForEvent: 30
+  OnHoverBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHover:
+    m_PersistentCalls:
+      m_Calls: []
+  OnHoverEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  OnButtonPressedDuringHover:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!135 &1913737021
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4929,8 +5042,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: -400, y: -250}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -40, y: -40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2063196938
 MonoBehaviour:

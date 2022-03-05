@@ -19,6 +19,8 @@ public class GazeOverEvent : MonoBehaviour
     [Range(0, 360)]
     public float maximumAngleForEvent = 30f;
 
+    //UnityEvents Manual: https://docs.unity3d.com/Manual/UnityEvents.html
+ 
     public UnityEvent OnHoverBegin;
     public UnityEvent OnHover;
     public UnityEvent OnHoverEnd;
@@ -29,8 +31,6 @@ public class GazeOverEvent : MonoBehaviour
     /// ensure OnHoverBegin and OnHoverEnd are only fired once per gaze start/end.
     /// </summary>
     private bool isHovering = false;
-
-
 
     void Update()
     {
